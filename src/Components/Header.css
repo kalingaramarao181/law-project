@@ -47,11 +47,20 @@
   margin: 0;
 }
 
-.logo-name p {
+.center-name p {
   margin: 0;
   color: #f5740a;
   font-weight: bold;
   font-size: 14px;
+  font-size: 20px;
+}
+
+.center-name{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 /* Contact Info (Desktop Only) */
@@ -116,6 +125,12 @@
   .contact-info1 {
     display: none;
   }
+
+  .center-name{
+    display: none;
+  }
+
+  
 
   /* Show menu icon */
   .menu-icon {

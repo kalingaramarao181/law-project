@@ -10,6 +10,10 @@
   transition: background-image 1s ease-in-out;
 }
 
+.center-name-mobile{
+    font-size: 100px;
+  }
+
 /* Dark overlay for text readability */
 .overlay {
   position: absolute;
@@ -62,8 +66,18 @@
   color: white;
 }
 
+.center-name-mobile{
+    display: none;
+  }
+
 /* Fade-in animation */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(30px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 480px){
+  .center-name-mobile{
+    display: block;
+  }
 }

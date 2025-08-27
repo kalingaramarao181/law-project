@@ -15,12 +15,13 @@ function Header() {
         {/* Left - Logo + Name */}
         <div className="logo-name">
           <img src="/images/logo.png" alt="Lawyer" className="logo" />
-          <div>
             <h1>SARDHAR SRI GOUTHU LATCHANNA</h1>
+        </div>
+
+        <div className="center-name">
             <p>BCAA VISAKHAPATANAM ,A.P</p>
             <p>BCUO OF AP ADVOCATES</p>
           </div>
-        </div>
 
         {/* Right - Contact Info */}
         <div className="contact-info1">
