@@ -25,13 +25,10 @@ function Hero() {
     >
       <div className="overlay">
         <div className="hero-text">
-          <div className="center-name-mobile">
-            <p>BCAA VISAKHAPATANAM ,A.P</p>
-            <p>BCUO OF AP ADVOCATES</p>
-          </div>
+          <img src="/images/group-photo.png" alt="Lawyer" className="group-image" />
           <h1>{slides[index].text}</h1>
           <p>Advocate | Legal Consultant | Advisor</p>
-          <button>Get Consultation</button>
+          <button>Register Now</button>
         </div>
       </div>
     </section>

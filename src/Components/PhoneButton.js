@@ -3,7 +3,7 @@ import { FaPhoneFlip } from "react-icons/fa6";
 import "./PhoneButton.css";
 
 const PhoneButton = () => {
-  const phoneNumber = "987654321"; 
+  const phoneNumber = "9160349099"; 
 
   return (
     <a

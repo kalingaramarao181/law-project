@@ -66,6 +66,12 @@
   color: white;
 }
 
+.group-image{
+  width: 60%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
 .center-name-mobile{
     display: none;
   }

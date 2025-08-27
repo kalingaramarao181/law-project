@@ -8,10 +8,7 @@ function About() {
         <div className="about-text">
           <h2>About Me</h2>
           <p>
-            I am <b>Sardhar Sri Gouthu Latchanna</b>, a dedicated lawyer committed
-            to providing expert legal advice and representation. With years of
-            experience in criminal law, civil disputes, and corporate law, I ensure
-            justice for my clients with integrity and precision.
+            <b>Gouthu Latchanna</b> was a freedom fighter from south India. He was born on August 16, 1909 at Barua, Srikakulam, Andhra Pradesh, In 1948, he presided over first Andhra backward classes conference at Guntur and decided to achieve legitimate rights and privileges embodied in the Constitution of India covering reservations and directives for their social, economical, and education development.
           </p>
 
           <div className="about-extra">
