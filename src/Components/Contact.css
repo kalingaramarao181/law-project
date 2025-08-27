@@ -1,0 +1,254 @@
+.contact {
+  padding: 80px 20px;
+  text-align: center;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI0uHYQwXXpRX8CFL6hOLJSxI1lZyBPNbZVQ&s") no-repeat center center/cover;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.contact h2 {
+  font-size: 42px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  animation: fadeInDown 1s ease-in-out;
+  position: relative;
+  display: inline-block;
+}
+
+.contact h2::after {
+  content: "";
+  width: 100px;
+  height: 4px;
+  background: #ffd369;
+  display: block;
+  margin: 12px auto 0;
+  border-radius: 2px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  animation: fadeInUp 1.5s ease-in-out;
+}
+
+/* Contact Info */
+.contact-info {
+  flex: 1;
+  display: flex;
+  gap: 25px;
+}
+
+.info-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  width: 300px;
+  border-radius: 15px;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.info-box:hover {
+  transform: translateY(-8px);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.info-icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #ffd369;
+}
+
+.info-box h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+/* Social Links */
+.social-links {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+  width: 200px;
+  justify-content: space-between;
+}
+
+.social-links a {
+  font-size: 24px;
+  color: #ffd369;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+  color: #ffb703;
+}
+
+/* Contact Form */
+.contact-form {
+  flex: 1;
+  display: flex;
+  width: 50vw;
+  flex-direction: column;
+  gap: 20px;
+  background: rgba(255,255,255,0.1);
+  padding: 30px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 16px;
+  background: rgba(255,255,255,0.9);
+  transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  background: #fff;
+  box-shadow: 0 0 12px rgba(255, 211, 105, 0.8);
+  transform: scale(1.02);
+}
+
+.contact-form button {
+  padding: 15px;
+  border: none;
+  border-radius: 50px;
+  background: #ffd369;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333;
+  transition: all 0.4s ease;
+}
+
+.contact-form button:hover {
+  background: #ffb703;
+  color: #fff;
+  box-shadow: 0 0 20px rgba(255, 211, 105, 0.9);
+  transform: scale(1.05);
+}
+
+/* 🔥 Animations */
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* -------- RESPONSIVE DESIGN -------- */
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .contact h2 {
+    font-size: 36px;
+  }
+
+  .contact-form {
+    width: 70vw;
+    padding: 25px;
+  }
+
+  .contact-info {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .info-box {
+    width: 250px;
+  }
+}
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  .contact {
+    padding: 60px 15px;
+  }
+
+  .contact h2 {
+    font-size: 28px;
+  }
+
+  .contact-container {
+    gap: 25px;
+  }
+
+  .contact-form {
+    width: 90vw;
+    padding: 20px;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .info-box {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .social-links {
+    width: auto;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+/* Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+  .contact h2 {
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+
+  .contact-form {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .contact-form button {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .info-box {
+    padding: 15px;
+  }
+
+  .info-box h3 {
+    font-size: 18px;
+  }
+
+  .info-icon {
+    font-size: 26px;
+  }
+
+  .social-links a {
+    font-size: 20px;
+  }
+}
+

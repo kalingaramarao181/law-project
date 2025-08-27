@@ -1,0 +1,69 @@
+.hero {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: background-image 1s ease-in-out;
+}
+
+/* Dark overlay for text readability */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(22, 33, 62, 0.6); /* matches nav bar theme */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Text styles */
+.hero-text {
+  text-align: center;
+  color: white;
+  animation: fadeIn 2s ease-in-out;
+  padding: 20px;
+}
+
+.hero-text h1 {
+  font-size: 56px;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.hero-text p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.hero-text button {
+  padding: 12px 25px;
+  border: none;
+  background: #f4c10f;
+  color: #1a1a2e;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.hero-text button:hover {
+  background: #16213e;
+  color: white;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
