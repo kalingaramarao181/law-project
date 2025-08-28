@@ -30,7 +30,7 @@ function Hero() {
           <p>Advocate | Legal Consultant | Advisor</p>
           <button>Register Now</button>
         </div>
-      </div>
+      </div>  
     </section>
   );
 }
