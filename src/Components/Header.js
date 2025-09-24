@@ -16,8 +16,8 @@ function Header() {
         <div className="logo-name">
           <img src="/images/logo1.jpeg" alt="Lawyer" className="logo" />
           <div className="center-name">
-            <p>BCAA VISAKHAPATANAM ,A.P</p>
-            <p>BCUO OF AP ADVOCATES</p>
+            <p>KONTHALA RAMESH</p>
+            <p>ADVOCATE</p>
           </div>
         </div>
 
