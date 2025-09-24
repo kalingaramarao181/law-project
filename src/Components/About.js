@@ -6,9 +6,12 @@ function About() {
     <section id="about" className="about">
       <div className="about-container">
         <div className="about-text">
-          <h2>About Me</h2>
+          <h2>About BAR COUNCIL OF ANDHRA PRADESH :: AMARAVATI</h2>
           <p>
-            <b>Gouthu Latchanna</b> was a freedom fighter from south India. He was born on August 16, 1909 at Barua, Srikakulam, Andhra Pradesh, In 1948, he presided over first Andhra backward classes conference at Guntur and decided to achieve legitimate rights and privileges embodied in the Constitution of India covering reservations and directives for their social, economical, and education development.
+            Under Sec.3 of the Advocates’ Act, 1961 there shall be a Bar Council for each State and accordingly the Bar Council of Andhra Pradesh has been constituted.
+Clause (b) Sub-Sec.(2) of Sec.3 of the said Act also lays down that in the case of a State Bar Council with an Electorate exceeding 10,000 Advocates shall consist of 25 members.
+At present there are more than 65,000 Advocates on the rolls of the Andhra Pradesh State Bar Council, who elected the Members of the Bar Council.
+The A.P. State Bar Council is one of the largest Statutory Bodies of professionals having statutory duties such as Enrollment of Law Graduates as Advocates, Regulating Legal Practice of Advocates and initiating action against erring advocates and also taking up welfare activities/schemes for the benefit of advocates.
           </p>
 
           <div className="about-extra">
