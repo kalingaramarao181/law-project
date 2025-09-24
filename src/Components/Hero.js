@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import "./Hero.css";
 
 const slides = [
-  { id: 1, text: "Justice For All", image: "/images/vba.jpg" },
-  { id: 2, text: "Your Trusted Legal Partner", image: "/images/vba.jpg" },
-  { id: 3, text: "Expert Legal Advice", image: "/images/group-photo.png" }
+  { id: 1, text: "Justice For All", image: "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2023/10/SCI-banner.jpg" },
+  { id: 2, text: "Your Trusted Legal Partner", image: "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2023/10/SCI-banner.jpg" },
+  { id: 3, text: "Expert Legal Advice", image: "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2023/10/SCI-banner.jpg" }
 ];
 
 function Hero() {
