@@ -14,7 +14,7 @@ function Header() {
       <div className="top-header">
         {/* Left - Logo + Name */}
         <div className="logo-name">
-          <img src="/images/logo.png" alt="Lawyer" className="logo" />
+          <img src="/images/logo1.jpeg" alt="Lawyer" className="logo" />
           <div className="center-name">
             <p>BCAA VISAKHAPATANAM ,A.P</p>
             <p>BCUO OF AP ADVOCATES</p>
